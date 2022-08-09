@@ -1,5 +1,20 @@
 .main{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    margin: 40px 0 40px 0;
 }
+
+
+.main::-webkit-scrollbar {
+    height: 8px;
+  }
+.main::-webkit-scrollbar-track {
+    background: #fff;        /* color of the tracking area */
+    width: 1px;
+  }
+.main::-webkit-scrollbar-thumb {
+    background-color: #b5b3b3;       /* roundness of the scroll thumb */
+  }
+  

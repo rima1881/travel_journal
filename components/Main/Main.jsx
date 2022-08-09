@@ -1,6 +1,7 @@
 import Card from "../Card/Card"
 import styles from './Main.module.css'
 import data from "../../data"
+import Wallpaper from "../Wallpaper/Wallpaper"
 
 export default function Main(){
 
@@ -13,8 +14,8 @@ export default function Main(){
         )
 
     return(
-        <div className={styles.main}>
-            {Cards}
-        </div>
+            <div className={styles.main}>
+                {Cards}
+            </div>
     )
 }

@@ -1,0 +1,28 @@
+.container{
+    background-image: url('/images/wallpaper.jpg');
+    width: 100%;
+    height: calc(60vh - 55px);
+    max-height: calc(60vh - 55px); ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 3.5vw;
+    line-height: 30px;
+    color: #fff;
+}
+
+.title > span {
+    color: #F55A5A;
+}
